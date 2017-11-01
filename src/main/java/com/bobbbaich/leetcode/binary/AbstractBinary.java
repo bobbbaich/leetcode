@@ -20,7 +20,7 @@ public abstract class AbstractBinary {
         return nodes.get(0);
     }
 
-    public class TreeNode {
+    class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
